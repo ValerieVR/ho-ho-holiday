@@ -18,11 +18,11 @@ button {
 .container {
   width: 600px;
   margin: auto;
-  cursor: url(./img/palu1.png), auto;
+  cursor: url(./img/ham1.png), auto;
 }
 
 .container:active {
-  cursor: url(./img/palu2.png), auto;
+  cursor: url(./img/ham2.png), auto;
 }
 
 .hole {

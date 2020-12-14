@@ -1,6 +1,8 @@
 const hole = document.querySelectorAll('.hole');
 const rats = document.querySelectorAll('.rat');
 const boardScore = document.querySelector('.score');
+const sounds = document.querySelector('#sounds');
+
 //const play = document.querySelector('.start');
 
 let moleBefore;
@@ -52,6 +54,7 @@ function play (){
 function getHit(){
     score++;
     boardScore.textContent = score;
+    sounds.play();
     this.parentNode.classList.remove('up');
 }
 
