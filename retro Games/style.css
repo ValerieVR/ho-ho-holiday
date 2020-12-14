@@ -1,6 +1,6 @@
 
 body{
-background-image: url(../img/bg.jpg);
+background-color:green;
 }
 
 h1, h2 {
@@ -18,14 +18,14 @@ button {
 .container {
   width: 600px;
   margin: auto;
-  cursor: url(../img/palu1.png), auto;
+  cursor: url(./img/palu1.png), auto;
 }
 
 .container:active {
-  cursor: url(../img/palu2.png), auto;
+  cursor: url(./img/palu2.png), auto;
 }
 
-.mole {
+.hole {
   width: 200px;
   height: 200px;
   position: relative;
@@ -33,13 +33,13 @@ button {
   float: left;
 }
 
-.mole::after {
+.hole::after {
   content: '';
   display: block;
   width: 200px;
   height: 100px;
-  background: url(../img/mole.png) bottom center no-repeat;
-  background-size: 80%;
+  background: url(./img/hole.png) bottom center no-repeat;
+  background-size: 90%;
   position: absolute;
   bottom: -25px;
 }
@@ -47,13 +47,13 @@ button {
 .rat {
   width: 100%;
   height: 100%;
-  background: url(../img/rat.png) bottom center no-repeat;
+  background: url(./img/mole.png) bottom center no-repeat;
   background-size: 60%;
   position: absolute;
   top: 100px;
   transition: top 0.3s;
 }
 
-.mole.show .rat {
-  top: -15px;
+.hole.up .rat {
+  top: -25px;
 }
