@@ -2,13 +2,15 @@ body {
     background: url(./images/background-retro.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh
 }
 
 #container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Press Start 2P', cursive;
+    font-family: "Press Start 2P", cursive;
     color: white;
 }
 
@@ -42,17 +44,38 @@ body {
     background: url(./images/bullets-20x20.png);
 }
 
+.buttons {
+    display: inline-block;
+    vertical-align: middle;
+    background: white;
+    color: black;
+    font-size: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    text-align: left;
+    border: 1px solid black;
+    box-shadow: 2px 2px black, 3px 3px white;
+    padding: 2px;
+    margin-top: 10px;
+}
+
 #controls {
     text-align: center;
 }
 
-#controls p:first-child {
-    font-weight: 900;
-    margin-top: 10px;
-    margin-bottom: 5px;
+#controls p {
+    margin: 0;
 }
 
 #controls p:nth-child(2) {
-    margin: 0;
     font-size: 12px;
+}
+
+#controls p:nth-child(3) {
+    font-size: 13px;
+}
+
+#controls p:nth-child(4) {
+    font-size: 14px;
+    text-indent: 1em;
 }
