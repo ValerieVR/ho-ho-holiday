@@ -66,5 +66,6 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }
     }
+    invaderId = setInterval(moveInvaders, 500);
 
 });
