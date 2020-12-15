@@ -65,10 +65,16 @@ document.addEventListener("DOMContentLoaded", () => {
                 squares[alienInvaders[i]].classList.add("invader");
             }
         }
+
+        // Decide a win
+        if (alienInvadersTakenDown.length === alienInvaders.length) {
+            resultDisplay.textContent = " You Win";
+            clearInterval(invaderId);
+        }
     }
     invaderId = setInterval(moveInvaders, 500);
 
-    // Shoot at aliens 10:33
+    // Shoot at aliens
     function shoot(event) {
         let laserId;
         let currentLaserIndex = currentShooterIndex;
