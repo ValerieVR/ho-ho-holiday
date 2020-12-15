@@ -6,12 +6,14 @@
 
 body {
     height: 100vh;
+    display: flex;
     background: #163B6F;
 }
 
 .memory-game {
     width: 640px;
     height: 640px;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
 }
