@@ -13,10 +13,13 @@ body {
     width: 640px;
     height: 640px;
     display: flex;
+    flex-wrap: wrap;
     border: 2px solid lime;
 }
 
 .memory-card {
+    width: 25%;
+    height: 33.333%;
     border: 2px solid aqua;
 }
 
