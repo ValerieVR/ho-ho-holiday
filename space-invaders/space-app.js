@@ -19,4 +19,10 @@ document.addEventListener("DOMContentLoaded", () => {
         30, 31, 32, 33, 34, 35, 36, 37, 38, 39,
     ];
 
+    // Draw the alien invaders by adding a class to the divs that should be aliens, then style with css
+    alienInvaders.forEach(invader => squares[currentInvaderIndex + invader].classList.add("invader"))
+
+    // Draw the shooter by adding a class to the div that should be the shooter
+    squares[currentShooterIndex].classList.add("shooter");
+
 });
