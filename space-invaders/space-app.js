@@ -88,7 +88,14 @@ document.addEventListener("DOMContentLoaded", () => {
             clearInterval(invaderId);
         }
     }
-    invaderId = setInterval(moveInvaders, 500);
+    document.getElementById("start").addEventListener("click", () => {
+
+        invaderId = setInterval(moveInvaders, 500);
+
+        document.getElementById("levelUp").addEventListener("click", () => {
+            invaderId = setInterval(moveInvaders, 500);
+        })
+    })
 
     // Shoot at aliens
     function shoot(event) {

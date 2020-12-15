@@ -1,3 +1,17 @@
+body {
+    background: url(./images/background-retro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+
 .grid {
     display: flex;
     flex-wrap: wrap;
@@ -13,18 +27,32 @@
 }
 
 .shooter {
-    background-color: blue;
+    background: url(./images/new-space-ship-20x20.png);
 }
 
 .invader {
-    background-color: purple;
-    border-radius: 10px;
+    background: url(./images/alien-invader-20x20.png);
 }
 
 .boom {
-    background-color: red;
+    background: url(./images/explosion20x20.png);
 }
 
 .laser {
-    background-color: yellow;
+    background: url(./images/bullets-20x20.png);
+}
+
+#controls {
+    text-align: center;
+}
+
+#controls p:first-child {
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#controls p:nth-child(2) {
+    margin: 0;
+    font-size: 12px;
 }
