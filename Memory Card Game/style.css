@@ -25,9 +25,14 @@ body {
     position: relative;
     transform: scale(1);
 }
+
 .memory-card:active {
     transform: scale(0.95);
     transition: transform .2s;
+}
+
+.memory-card.flip {
+    transform: rotateY(180deg);
 }
 
 .front-face,
