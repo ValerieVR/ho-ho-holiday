@@ -60,9 +60,25 @@ document.addEventListener("DOMContentLoaded", () => {
         for (let i = 0; i <= alienInvaders.length - 1; i++) {
             alienInvaders[i] += direction;
         }
+
+
         for (let i = 0; i <= alienInvaders.length - 1; i++) {
             if (!alienInvadersTakenDown.includes(i)) {
                 squares[alienInvaders[i]].classList.add("invader");
+            }
+        }
+
+        // Decide when game is over
+        if (squares[currentShooterIndex].classList.contains("invader", "shooter")) {
+            resultDisplay.textContent = "Game Over";
+            squares[currentShooterIndex].classList.add("boom");
+            clearInterval(invaderId);
+        }
+
+        for (let i = 0; i <= alienInvaders.length - 1; i++) {
+            if (alienInvaders[i] > (squares.length - (width - 1))) {
+                resultDisplay.textContent = " Game Over";
+                clearInterval(invaderId);
             }
         }
 
