@@ -14,14 +14,13 @@ body {
     height: 640px;
     display: flex;
     flex-wrap: wrap;
-  
 }
 
 .memory-card {
-    width: 25%;
-    height: 33.333%;
+    width: calc(25% - 10px);
+    height: calc(33.333% - 10px);
+    margin: 5px;
     position: relative;
-    
 }
 
 .front-face,
