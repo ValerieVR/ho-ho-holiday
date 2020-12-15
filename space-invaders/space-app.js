@@ -25,4 +25,22 @@ document.addEventListener("DOMContentLoaded", () => {
     // Draw the shooter by adding a class to the div that should be the shooter
     squares[currentShooterIndex].classList.add("shooter");
 
+    // Move the shooter along a line
+    function moveShooter(event) {
+        squares[currentShooterIndex].classList.remove("shooter");
+        switch (event.keyCode) {
+            // 37 is left arrow
+            case 37:
+                if (currentShooterIndex % width !== 0) currentShooterIndex -= 1;
+                break;
+                // 39 is right arrow
+            case 39:
+                if (currentShooterIndex % width < width - 1) currentShooterIndex += 1;
+        }
+        squares[currentShooterIndex].classList.add("shooter");
+    }
+    // Event when a key is pressed
+    // Keydown works for all keys, key press doesn't
+    document.addEventListener("keydown", moveShooter);
+
 });
