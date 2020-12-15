@@ -8,6 +8,8 @@ body {
     height: 100vh;
     display: flex;
     background: #163B6F;
+    background-image: url(./img/retro.jpg);
+    background-size: 1OOvh;
 }
 
 .memory-game {
