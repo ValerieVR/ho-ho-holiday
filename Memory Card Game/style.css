@@ -26,8 +26,8 @@ body {
     transform: scale(1);
 }
 .memory-card:active {
-    transform: scale(.95);
-    transition: transform.2s;
+    transform: scale(0.95);
+    transition: transform .2s;
 }
 
 .front-face,
