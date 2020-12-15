@@ -57,6 +57,18 @@ body {
     box-shadow: 2px 2px black, 3px 3px white;
     padding: 2px;
     margin-top: 10px;
+    cursor: pointer;
+}
+
+.buttons:active {
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0 3px black, 0px 3px white;
+    transform: translateY(2px) translateX(2px);
+}
+
+.buttons:active {
+    color: black;
 }
 
 #controls {
@@ -78,4 +90,8 @@ body {
 #controls p:nth-child(4) {
     font-size: 14px;
     text-indent: 1em;
+}
+
+#controls p:nth-child(5) {
+    font-size: 15px;
 }
