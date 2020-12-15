@@ -20,10 +20,13 @@ body {
 .memory-card {
     width: 25%;
     height: 33.333%;
+    position: relative;
     border: 2px solid aqua;
 }
 
 .front-face,
 .back-face {
+
+    position: absolute;
     border: 2px solid deeppink;
 }
