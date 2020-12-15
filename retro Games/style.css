@@ -1,7 +1,10 @@
+body {
+  background-image:url(./img/bg.jpg);
+  background-size: cover;
+ 
 
-body{
-background-color:green;
 }
+
 
 h1, h2 {
   font-size: 60px;
@@ -19,6 +22,8 @@ button {
   width: 600px;
   margin: auto;
   cursor: url(./img/ham1.png), auto;
+  margin-top:130px;
+ 
 }
 
 .container:active {
@@ -48,7 +53,7 @@ button {
   width: 100%;
   height: 100%;
   background: url(./img/mole.png) bottom center no-repeat;
-  background-size: 60%;
+  background-size: 70%;
   position: absolute;
   top: 100px;
   transition: top 0.3s;

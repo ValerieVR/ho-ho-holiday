@@ -26,7 +26,7 @@ function randomTime(min, max){
 //get rats showup
 function getRats(){
     const hRandom = randomHoles(hole);
-    const tRandom = randomTime(300, 1000);
+    const tRandom = randomTime(500, 1000);
     hRandom.classList.add('up');
     
     setTimeout(() => {
@@ -64,3 +64,28 @@ rats.forEach( r => {
     r.addEventListener('click', getHit);
        
     });
+
+
+// timer
+
+t = timeLeft.textContent
+setInterval(() => {
+    t--
+    timeLeft.textContent = t
+    if(t === 0)
+    {
+        alert("Game Over, your final score is "+ r)
+        timeLeft.textContent = 60
+        t=60
+    }
+}, 500)
+
+// reset
+
+const reset = document.querySelector("#reset")
+reset.addEventListener("click",function(){
+    score.textContent = 0
+    timeLeft.textContent = 60
+    t=60
+})
+
