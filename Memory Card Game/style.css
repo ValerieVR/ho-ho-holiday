@@ -8,7 +8,6 @@ body {
     height: 100vh;
     display: flex;
     background-image: url(./img/retro.jpg);
-    background-size: 1OOvh;
 }
 
 .memory-game {
@@ -33,5 +32,5 @@ body {
     padding: 20px;
     position: absolute;
     border-radius: 5px;
-    background: #0071CE;
+    background: #f507c9;
 }
