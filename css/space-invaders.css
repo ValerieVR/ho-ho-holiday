@@ -1,5 +1,5 @@
 body {
-    background: url(./images/background-retro.jpg);
+    background: url(../assets/img/space-invaders/background-retro.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -29,19 +29,19 @@ body {
 }
 
 .shooter {
-    background: url(./images/new-space-ship-20x20.png);
+    background: url(../assets/img/space-invaders/new-space-ship-20x20.png);
 }
 
 .invader {
-    background: url(./images/alien-invader-20x20.png);
+    background: url(../assets/img/space-invaders/alien-invader-20x20.png);
 }
 
 .boom {
-    background: url(./images/explosion20x20.png);
+    background: url(../assets/img/space-invaders/explosion20x20.png);
 }
 
 .laser {
-    background: url(./images/bullets-20x20.png);
+    background: url(../assets/img/space-invaders/bullets-20x20.png);
 }
 
 .buttons {
