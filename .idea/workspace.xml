@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e41ee98e-0d1e-4f7d-bdba-2455ebb72eb4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Snake Game/body (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Snake Game/canvas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Snake Game/food.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Snake Game/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Snake Game/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Snake Game/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1leS9El8gLT8zQwaur9KgfJSoio" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../weather-app/style.css" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\koko\PhpstormProjects\ho-ho-holiday\Snake Game" />
+      <recent name="C:\Users\koko\PhpstormProjects\ho-ho-holiday" />
+      <recent name="C:\Users\koko\PhpstormProjects\ho-ho-holiday\TIC TAC TOE" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Snake Game/script.js" working-dir="$PROJECT_DIR$/Snake Game">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.script.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e41ee98e-0d1e-4f7d-bdba-2455ebb72eb4" name="Default Changelist" comment="" />
+      <created>1607955911941</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607955911941</updated>
+      <workItem from="1607955914469" duration="3697000" />
+      <workItem from="1608020175722" duration="30353000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="435" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608071950742">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="435" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1608071950742" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1608046019027">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608046019027" />
+    <state width="1323" height="266" key="GridCell.Tab.0.bottom" timestamp="1608106895162">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="266" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608106895162" />
+    <state width="1323" height="266" key="GridCell.Tab.0.center" timestamp="1608106895162">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="266" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608106895162" />
+    <state width="1323" height="266" key="GridCell.Tab.0.left" timestamp="1608106895160">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="266" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608106895160" />
+    <state width="1323" height="266" key="GridCell.Tab.0.right" timestamp="1608106895162">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="266" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608106895162" />
+    <state width="1323" height="266" key="GridCell.Tab.1.bottom" timestamp="1608106895163">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="266" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608106895163" />
+    <state width="1323" height="266" key="GridCell.Tab.1.center" timestamp="1608106895163">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="266" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1608106895163" />
+    <state width="1323" height="266" key="GridCell.Tab.1.left" timestamp="1608106895162">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="266" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1608106895162" />
+    <state width="1323" height="266" key="GridCell.Tab.1.right" timestamp="1608106895163">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="266" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1608106895163" />
+    <state width="1323" height="266" key="GridCell.Tab.2.bottom" timestamp="1608106895164">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="266" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608106895164" />
+    <state width="1323" height="266" key="GridCell.Tab.2.center" timestamp="1608106895164">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="266" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1608106895164" />
+    <state width="1323" height="266" key="GridCell.Tab.2.left" timestamp="1608106895163">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="266" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1608106895163" />
+    <state width="1323" height="266" key="GridCell.Tab.2.right" timestamp="1608106895164">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="266" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1608106895164" />
+    <state width="1323" height="266" key="GridCell.Tab.3.bottom" timestamp="1608106895165">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="266" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608106895165" />
+    <state width="1323" height="266" key="GridCell.Tab.3.center" timestamp="1608106895164">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="266" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1608106895164" />
+    <state width="1323" height="266" key="GridCell.Tab.3.left" timestamp="1608106895164">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="266" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1608106895164" />
+    <state width="1323" height="266" key="GridCell.Tab.3.right" timestamp="1608106895165">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="266" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1608106895165" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1607980950326">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1607980950326" />
+  </component>
+</project>
