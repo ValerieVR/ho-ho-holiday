@@ -1,28 +1,90 @@
-body {
-  background-image:url(./img/bg.jpg);
-  background-size: cover;
- 
 
+body{
+ background-color:#724306;
 }
 
 
-h1, h2 {
+h1 {
   font-size: 60px;
-  text-align: center;
-  font-family: arial;
-  margin: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color:#724306;
+    text-shadow: inset -20px 0 80px rgb(147, 240, 155),
+    inset -20px 0 300px rgb(178, 233, 190),
+    0 0 50px #fff,
+    10px 0 80px rgb(52, 230, 132);;
+    text-rendering: optimizeLegibility;
+    animation: glow 1.9s linear   infinite;
+  
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 2px rgb(126, 218, 51);
+  }
+  50% {
+    text-shadow: 0 0 16px rgb(62, 219, 56);
+  }
+  100% {
+    text-shadow: 0 0 2px rgb(112, 240, 133);
+  }
 }
 
 button {
-  display: block;
-  margin: auto;
+  position:absolute;
+  height:50px;
+  width:120px;
+  background:rgb(47, 163, 47);
+  border-radius:6px;
+  font-size:20px;
+  color:#724306;
+  font-style: bold;
+  text-align:center;
+  text-shadow: 2px 2px rgb(122, 117, 117);
+  font-family:'Press Start 2P', cursive;
+  box-shadow: 4px 6px 3px #888888;
+  margin-left: 80px;
+}
+
+Button:active{
+  -webkit-transition: width .7; /*Safari*/
+  transition: width .7s;
+  background:lime;
+  box-shadow: 3px 5px 10px #888888;
+  height:49px;
+  color:#777;
+}
+
+
+h3{
+  font-size: 30px;
+  box-sizing: border-box;
+  width: 200px;
+  height: 100px;
+  background:rgb(47, 163, 47);
+  border-radius:6px;
+  color:#724306;
+  font-style: bold;
+  text-align:center;
+  text-shadow: 2px 2px #777;
+  font-family:'Press Start 2P', cursive;
+  box-shadow: 4px 6px 3px #888888;
+  margin-left: 50px;
+  
+
+  
+
 }
 
 .container {
   width: 600px;
   margin: auto;
   cursor: url(./img/ham1.png), auto;
-  margin-top:130px;
+  margin-top:-70px;
+
+  
+ 
  
 }
 
@@ -52,8 +114,8 @@ button {
 .rat {
   width: 100%;
   height: 100%;
-  background: url(./img/mole.png) bottom center no-repeat;
-  background-size: 70%;
+  background: url(./img/dino.png) bottom center no-repeat;
+  background-size: 80%;
   position: absolute;
   top: 100px;
   transition: top 0.3s;
@@ -62,3 +124,4 @@ button {
 .hole.up .rat {
   top: -25px;
 }
+
