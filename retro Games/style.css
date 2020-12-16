@@ -6,15 +6,12 @@ body{
 
 
 h1 {
+  margin:40px;
   font-size: 60px;
     font-weight: bold;
     text-align: center;
     font-family: 'Press Start 2P', cursive;
     color:#1a1f66;
-    text-shadow: inset -20px 0 80px rgb(147, 240, 155),
-    inset -20px 0 300px rgb(178, 233, 80),
-    0 0 50px #fff,
-    10px 0 80px rgb(52, 230, 132);;
     text-rendering: optimizeLegibility;
     animation: glow 1.9s linear   infinite;
   
@@ -22,13 +19,13 @@ h1 {
 
 @keyframes glow {
   0% {
-    text-shadow: 0 0 2px rgb(126, 218, 51);
+    text-shadow: 0 0 2px rgb(218, 51, 190);
   }
   50% {
-    text-shadow: 0 0 16px rgb(62, 219, 56);
+    text-shadow: 0 0 16px rgb(219, 56, 211);
   }
   100% {
-    text-shadow: 0 0 2px rgb(112, 240, 133);
+    text-shadow: 0 0 2px rgb(240, 112, 234);
   }
 }
 
@@ -36,25 +33,26 @@ button {
   position:absolute;
   height:50px;
   width:120px;
-  background:rgb(47, 163, 47);
+  background:#189aa2;
   border-radius:6px;
   font-size:20px;
-  color:#724306;
+  color:#1a1f66;
   font-style: bold;
   text-align:center;
   text-shadow: 2px 2px rgb(122, 117, 117);
   font-family:'Press Start 2P', cursive;
   box-shadow: 4px 6px 3px #beb4b4;
-  margin-left: 80px;
+  margin-left: 650px;
 }
 
 Button:active{
   -webkit-transition: width .7; /*Safari*/
   transition: width .7s;
-  background:lime;
+  background:#189aa2;
   box-shadow: 3px 5px 10px #888888;
   height:49px;
   color:#777;
+ 
 }
 
 
@@ -63,18 +61,16 @@ h3{
   box-sizing: border-box;
   width: 200px;
   height: 100px;
-  background:rgb(47, 163, 47);
+  background:#189aa2;
   border-radius:6px;
-  color:#724306;
+  color:#1a1f66;
   font-style: bold;
   text-align:center;
   text-shadow: 2px 2px #777;
   font-family:'Press Start 2P', cursive;
   box-shadow: 4px 6px 3px #888888;
-  margin-left: 50px;
-  
-
-  
+  margin-top: 300px;
+  margin-left:50px;
 
 }
 
@@ -82,11 +78,8 @@ h3{
   width: 600px;
   margin: auto;
   cursor: url(./img/ham1.png), auto;
-  margin-top:-50px;
+  margin-top:-300px;
 
-  
- 
- 
 }
 
 .container:active {
@@ -115,7 +108,7 @@ h3{
 .rat {
   width: 100%;
   height: 100%;
-  background: url(./img/alien.png) bottom center no-repeat;
+  background: url(./img/alien1.png) bottom center no-repeat;
   background-size: 50%;
   position: absolute;
   top: 100px;
