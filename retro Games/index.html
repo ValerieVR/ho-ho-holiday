@@ -4,16 +4,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>whack a mole </title>
+  <title>whack an Alien </title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <h1>score <span class ="score">0 </span> </h1>
-  <button  type="button" class="start" onclick="play()"> start </button>
-
-  <div class="container">
-    <div class="hole ">
+  <div class="header">
+  <h1>Whack An Alien</h1>
+  <button  type="button" class="start" onclick="play()"> Play </button>
+  <h3>score <br> <br> <span class ="score">0 </span> </h3>
+  
+  </div>
+    <div class="container">
+      <div class="hole ">
       <div class="rat"></div>
     </div>
     <div class="hole">
@@ -32,6 +38,8 @@
       <div class="rat"></div>
     </div>
   </div>
+  
+  
   <audio src="pop.mp3" id="sounds"></audio>
   <script src="script.js"></script>
 </body>

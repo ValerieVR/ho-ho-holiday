@@ -8,6 +8,7 @@ body {
     height: 100vh;
     display: flex;
     background-image: url(./img/retro.jpg);
+    background-size: cover;
 }
 
 .memory-game {
@@ -16,6 +17,7 @@ body {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    perspective: 1000px;
 }
 
 .memory-card {
@@ -24,10 +26,17 @@ body {
     margin: 5px;
     position: relative;
     transform: scale(1);
+    transform-style:preserve-3d;
+    transition: transform .5s;
 }
+
 .memory-card:active {
     transform: scale(0.95);
     transition: transform .2s;
+}
+
+.memory-card.flip {
+    transform: rotateY(180deg);
 }
 
 .front-face,
@@ -38,4 +47,9 @@ body {
     position: absolute;
     border-radius: 5px;
     background: #f507c9;
+    backface-visibility: hidden;
+}
+
+.front-face {
+    transform: rotateY(180deg);
 }

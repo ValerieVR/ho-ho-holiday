@@ -26,7 +26,7 @@ function randomTime(min, max){
 //get rats showup
 function getRats(){
     const hRandom = randomHoles(hole);
-    const tRandom = randomTime(500, 1000);
+    const tRandom = randomTime(300, 1500);
     hRandom.classList.add('up');
     
     setTimeout(() => {
