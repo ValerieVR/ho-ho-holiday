@@ -1,4 +1,5 @@
 # :christmas_tree: Ho-ho-holiday
+A team project/challenge given to us by BeCode right before the Christmas holiday. We created a website with 4 games to enjoy during the holidays. We decided to go for a retro look and feel. Each of our team members recreated a game and the rest of the project is a team effort. We had one week to complete this project and present it to other teams. Future improvements will follow. We've got to keep practicing and improving!
 
 ## :rocket: Space Invaders
 Made by [Willem](https://github.com/WillemDT369)
@@ -20,6 +21,7 @@ Made by [Valerie](https://github.com/ValerieVR)
 - Google Fonts
 - Favicon converter
 - Flaticon
+- Markdown
 
 ## :video_game: Let's play!
 
