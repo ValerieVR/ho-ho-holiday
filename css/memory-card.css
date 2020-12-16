@@ -7,7 +7,7 @@
 body {
     height: 100vh;
     display: flex;
-    background-image: url(./img/retro.jpg);
+    background-image: url(../assets/img/memory-card/retro.jpg);
     background-size: cover;
 }
 
