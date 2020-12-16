@@ -9,6 +9,13 @@
 ## :link: Memory Card Game
 
 ## :wrench: Tools
+- Visual Studio Code
+- Languages: HTML, CSS, (vanilla) JavaScript
+- Google (of course)
+- YouTube
+- Google Fonts
+- Favicon converter
+- Flaticon
 
 ## :video_game: Let's play!
 
