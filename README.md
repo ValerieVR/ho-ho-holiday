@@ -4,22 +4,22 @@ A team project/challenge given to us by BeCode right before the Christmas holida
 ## :rocket: Space Invaders
 Use your space bar and stop the invaders!
 
-Made by [Willem](https://github.com/WillemDT369)
+Made by [Willem](https://github.com/WillemDT369).
 
 ## :alien: Whack an Alien
 Always wanted to whack an alien? Here is your chance! Beware it's not easy ...
 
-Made by [Ismi](https://github.com/180485)
+Made by [Ismi](https://github.com/180485).
 
 ## :snake: Snake
 Make sure the hungry snake eats and doesn't hit the wall.
 
-Made by [Nour](https://github.com/khiati-nour)
+Made by [Nour](https://github.com/khiati-nour).
 
 ## :link: Memory Card Game
 Train your memory by finding the matching cards.
 
-Made by [Valerie](https://github.com/ValerieVR)
+Made by [Valerie](https://github.com/ValerieVR).
 
 ## :wrench: Tools
 - Visual Studio Code
