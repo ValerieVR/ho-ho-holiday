@@ -1,6 +1,7 @@
 
 body{
- background-color:#724306;
+  background-image: url(retro.png);
+  background-size: cover;
 }
 
 
@@ -9,9 +10,9 @@ h1 {
     font-weight: bold;
     text-align: center;
     font-family: 'Press Start 2P', cursive;
-    color:#724306;
+    color:#1a1f66;
     text-shadow: inset -20px 0 80px rgb(147, 240, 155),
-    inset -20px 0 300px rgb(178, 233, 190),
+    inset -20px 0 300px rgb(178, 233, 80),
     0 0 50px #fff,
     10px 0 80px rgb(52, 230, 132);;
     text-rendering: optimizeLegibility;
@@ -43,7 +44,7 @@ button {
   text-align:center;
   text-shadow: 2px 2px rgb(122, 117, 117);
   font-family:'Press Start 2P', cursive;
-  box-shadow: 4px 6px 3px #888888;
+  box-shadow: 4px 6px 3px #beb4b4;
   margin-left: 80px;
 }
 
@@ -81,7 +82,7 @@ h3{
   width: 600px;
   margin: auto;
   cursor: url(./img/ham1.png), auto;
-  margin-top:-70px;
+  margin-top:-50px;
 
   
  
@@ -104,24 +105,24 @@ h3{
   content: '';
   display: block;
   width: 200px;
-  height: 100px;
-  background: url(./img/hole.png) bottom center no-repeat;
-  background-size: 90%;
+  height: 200px;
+  background: url(./img/planet.png) bottom center no-repeat;
+  background-size: 80%;
   position: absolute;
-  bottom: -25px;
+  bottom: -70px;
 }
 
 .rat {
   width: 100%;
   height: 100%;
-  background: url(./img/dino.png) bottom center no-repeat;
-  background-size: 80%;
+  background: url(./img/alien.png) bottom center no-repeat;
+  background-size: 50%;
   position: absolute;
   top: 100px;
-  transition: top 0.3s;
+  transition: top 0.2s;
 }
 
 .hole.up .rat {
-  top: -25px;
+  top: -70px;
 }
 
