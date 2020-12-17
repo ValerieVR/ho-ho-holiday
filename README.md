@@ -30,6 +30,8 @@ Made by [Valerie](https://github.com/ValerieVR).
 - Favicon converter
 - Flaticon
 - Markdown
+- Zapsplat
+- Subpng
 
 ## :video_game: Let's play!
 
