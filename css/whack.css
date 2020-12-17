@@ -1,0 +1,177 @@
+
+body{
+  background-image: url(../assets/img/whack/retro.png);
+  background-size: cover;
+} 
+
+
+h1 {
+  margin:40px;
+  font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color:#1a1f66;
+    text-rendering: optimizeLegibility;
+    animation: glow 1.9s linear   infinite;
+  
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 2px rgb(218, 51, 190);
+  }
+  50% {
+    text-shadow: 0 0 16px rgb(219, 56, 211);
+  }
+  100% {
+    text-shadow: 0 0 2px rgb(240, 112, 234);
+  }
+}
+
+button {
+  position:absolute;
+  height:50px;
+  width:120px;
+  background:#189aa2;
+  border-radius:6px;
+  font-size:20px;
+  color:#1a1f66;
+  font-style: bold;
+  text-align:center;
+  text-shadow: 2px 2px rgb(122, 117, 117);
+  font-family:'Press Start 2P', cursive;
+  box-shadow: 4px 6px 3px #beb4b4;
+  margin-left: 500px;
+}
+
+Button:active{
+  -webkit-transition: width .7; /*Safari*/
+  transition: width .7s;
+  background:#189aa2;
+  box-shadow: 3px 5px 10px #888888;
+  height:49px;
+  color:#777;
+ 
+}
+
+
+h3{
+  font-size: 30px;
+  box-sizing: border-box;
+  width: 200px;
+  height: 110px;
+  border-radius:6px;
+  color:#1a1f66;
+  font-style: bold;
+  text-align:center;
+  font-family:'Press Start 2P', cursive;
+  box-sizing: border-box;
+  border-radius: 40px 40px 0 0;
+  margin-top: 100px;
+  margin-left:50px;
+  box-shadow:
+  inset -20px 0 80px rgb(232, 147, 240),
+  inset -20px 0 300px rgb(231, 178, 233),
+  0 0 50px #fff,
+  10px 0 80px rgb(209, 52, 230);
+  animation: glow 1.9s linear   infinite;
+
+}
+
+
+.container {
+  width: 600px;
+  margin: auto;
+  cursor: url(../assets/img/whack/ham1.png), auto;
+  margin-top:-220px;
+
+}
+
+.container:active {
+  cursor: url(../assets/img/whack/ham2.png), auto;
+}
+
+.hole {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+}
+
+.hole::after {
+  content: '';
+  display: block;
+  width: 200px;
+  height: 200px;
+  background: url(../assets/img/whack/planet.png) bottom center no-repeat;
+  background-size: 80%;
+  position: absolute;
+  bottom: -70px;
+}
+
+.rat {
+  width: 100%;
+  height: 100%;
+  background: url(../assets/img/whack/alien1.png) bottom center no-repeat;
+  background-size: 50%;
+  position: absolute;
+  top: 100px;
+  transition: top 0.2s;
+}
+
+.hole.up .rat {
+  top: -70px;
+}
+
+img{
+  width:100px;
+  height: 100px;
+  margin-left: 50px;
+  animation: bounce 0.4s infinite alternate;
+  -webkit-animation: bounce 0.4s infinite alternate;
+}
+
+
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-25px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-25px);
+  }
+}
+  
+ 
+
+
+.img2{
+  width: 200px;
+  height: 200px;
+  margin-top: -80px;
+  padding-bottom: 50px;
+  animation: rotation 6s infinite linear;
+ 
+}
+
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
