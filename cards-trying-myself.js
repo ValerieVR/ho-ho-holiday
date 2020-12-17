@@ -1,8 +1,3 @@
-
-
-
-
-
 var loading = document.querySelector('.loading');
 
 
@@ -13,16 +8,14 @@ window.addEventListener('load', (event) =>{
     var count = 4;
     var per = 16;
     var loading = setInterval(animate,10);
-    /*document.getElementById('loading').style.display = "block";
-    document.getElementById("wrapper").style.display = "none";*/
+
     function animate() {
         if (count == 100 && per == 400) {
             percent.textContent = "COMPLETED..."
             percent.classList.add("text-blink");
             clearInterval(loading);
             document.getElementById("loading").style.opacity = 0;
-            document.getElementById("wrapper").style.opacity = 1;
-            /* location.href = "https://www.thecrazyprogrammer.com/2019/09/javascript-tic-tac-toe-game.html"*/
+            document.getElementById("container").style.opacity = 1;
         } else {
             per = per + 4
             count = count + 1;
@@ -31,6 +24,7 @@ window.addEventListener('load', (event) =>{
         }
     }
 })
+
 //background
 
 const COLOR_SPACE ="black";
@@ -40,11 +34,11 @@ const STAR_SIZE = 0.010; // max star size as a fraction of screen width
 const STAR_SPEED = 0.05; // fraction of screen width per second
 
 // set up the canvas and context
-var canvas = document.createElement("canvas");
-var ctx = canvas.getContext("2d");
+let canvas = document.createElement("canvas");
+let ctx = canvas.getContext("2d");
 canvas.height = document.documentElement.clientHeight;
 canvas.width = document.documentElement.clientWidth;
-document.body.append(canvas);
+document.body.appendChild(canvas)
 
 // set up the stars
 var stars = [];
@@ -93,7 +87,7 @@ function loop(timeNow) {
         } else if (stars[i].x > canvas.width + stars[i].r) {
             stars[i].x = 0 - stars[i].r;
         }
-        
+
         // update the star's y position
         stars[i].y += stars[i].yv * timeDelta * 0.001;
 
@@ -110,5 +104,5 @@ function loop(timeNow) {
 }
 
 function randomSign() {
-    return Math.random() >= 0.5 ? 1 : -1; 
+    return Math.random() >= 0.5 ? 1 : -1;
 }
