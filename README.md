@@ -1,5 +1,5 @@
 # :christmas_tree: Ho-ho-holiday
-A team project/challenge given to us by [BeCode](https://github.com/becodeorg) right before the Christmas holiday. We created a website with 4 games to enjoy during the holidays. We decided to go for a retro look and feel. Each of our team members recreated a game and the rest of the project is a team effort. We had one week to complete this project and present it to other teams. Future improvements will follow. We've got to keep practicing and improving!
+A team project/challenge given to us by [BeCode](https://github.com/becodeorg) right before the Christmas holiday. We created a website with 4 games to enjoy during the holidays. We decided to go for a retro/space look and feel. Each of our team members recreated a game and the rest of the project is a team effort. We had one week to complete this project and present it to other teams. Future improvements will follow. We've got to keep practicing and improving!
 
 ## :rocket: Space Invaders
 Use your space bar and stop the invaders!
