@@ -1,90 +1,149 @@
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    size: cover;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.navbar {
+    width: 100%;
+    background-color: black;
+    overflow: auto;
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #f011cb;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
     }
-    
-    body {
-        background: black;
-        size: cover;
+}
+
+h1 {
+    margin-top: 40px;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: #1a1f66;
+    text-rendering: optimizeLegibility;
+    animation: glow 1.9s linear infinite;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 2px rgb(218, 51, 190);
     }
-    
-    .container {
-        height: 100vh;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+    50% {
+        text-shadow: 0 0 16px rgb(219, 56, 211);
     }
-    
-    .test {
-        height: 200px;
-        width: 250px;
-        position: absolute;
-        z-index: 2;
-        display: flex;
+    100% {
+        text-shadow: 0 0 2px rgb(240, 112, 234);
     }
-    
-    .test2 {
-        height: 200px;
-        width: 250px;
-    }
-    
-    .card {
-        /* visibility: hidden; */
-        z-index: 1;
-    }
-    
-    .layers {
-        width: 300px;
-        height: 200px;
-        transition: 0.5s;
-        font-family: 'Press Start 2P', cursive;
-        color: whitesmoke;
-    }
-    
-    img {
-        width: 200px;
-        margin-top: 10px;
-    }
-    
-    .top-layer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        text-align: center;
-        position: relative;
-        z-index: -1;
-        transform: translateY(100px);
-        font-size: 14px;
-        border-radius: 50%;
-    }
-    
-    .card:hover .top-layer {
-        transform: translateY(0);
-        /* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
-        box-shadow: 0 0 60px whitesmoke inset, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
-    }
-    
-    h3 {
-        margin-top: 10px;
-    }
-    
-    .bottom-layer {
-        display: flex;
-        align-items: center;
-        text-align: center;
-        background-color: rgb(126, 113, 113);
-        position: relative;
-        transform: translateY(-100px);
-        font-size: 14px;
-    }
-    
-    .card:hover .bottom-layer {
-        transform: translateY(0);
-    }
-    
-    .ptest {
-        color: white;
-        font-size: 2em;
-    }
+}
+
+.container {
+    /* height: 100vh; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.test {
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+}
+
+.test2 {
+    height: 200px;
+    width: 250px;
+}
+
+.card {
+    /* visibility: hidden; */
+    z-index: 1;
+}
+
+.layers {
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+    font-family: 'Press Start 2P', cursive;
+    color: whitesmoke;
+}
+
+img {
+    width: 200px;
+    margin-top: 10px;
+}
+
+.top-layer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+    transform: translateY(100px);
+    font-size: 14px;
+    border-radius: 50%;
+}
+
+.card:hover .top-layer {
+    transform: translateY(0);
+    /* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
+    box-shadow: 0 0 60px whitesmoke inset, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+.bottom-layer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(126, 113, 113);
+    position: relative;
+    transform: translateY(-100px);
+    font-size: 14px;
+}
+
+.card:hover .bottom-layer {
+    transform: translateY(0);
+}
+
+.ptest {
+    color: white;
+    font-size: 2em;
+}
+
+footer {
+    color: white;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    text-align: center;
+}
