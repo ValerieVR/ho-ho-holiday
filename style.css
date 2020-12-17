@@ -48,18 +48,19 @@ h1 {
 
 @keyframes glow {
     0% {
-        text-shadow: 0 0 2px rgb(218, 51, 190);
+        text-shadow: 0 0 2px rgb(228, 65, 214);
     }
     50% {
-        text-shadow: 0 0 16px rgb(219, 56, 211);
+        text-shadow: 0 0 16px rgb(200, 62, 212);
     }
     100% {
-        text-shadow: 0 0 2px rgb(240, 112, 234);
+        text-shadow: 0 0 2px rgb(223, 169, 205);
     }
 }
 
 .container {
     /* height: 100vh; */
+    margin-top:50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -82,6 +83,7 @@ h1 {
 .card {
     /* visibility: hidden; */
     z-index: 1;
+    color: #1a1f66;
 }
 
 .layers {
@@ -147,6 +149,7 @@ footer {
     align-items: center;
     justify-content: end;
     text-align: center;
+    margin-top: 80px;
 }
 canvas {
     position:absolute;
@@ -196,10 +199,11 @@ canvas {
 .progress{
     width: 200px;
     height: 15px;
-    background: #f60d54;
+    background:#f011cb;
     border-radius: 13px;
 }
 h1{
+    
     opacity:0
 }
 .navbar{

@@ -31,7 +31,7 @@ window.addEventListener('load', (event) =>{
 //background
 
 const COLOR_SPACE ="black";
-const COLOR_STARS = "pink";
+const COLOR_STARS = "#f011cb";
 const STAR_NUM = 150; // number of stars in the starfield
 const STAR_SIZE = 0.010; // max star size as a fraction of screen width
 const STAR_SPEED = 0.05; // fraction of screen width per second
