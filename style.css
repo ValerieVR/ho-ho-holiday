@@ -44,6 +44,8 @@ h1 {
     color: #1a1f66;
     text-rendering: optimizeLegibility;
     animation: glow 1.9s linear infinite;
+
+
 }
 
 @keyframes glow {
@@ -83,7 +85,7 @@ h1 {
 .card {
     /* visibility: hidden; */
     z-index: 1;
-    color: #1a1f66;
+    
 }
 
 .layers {
@@ -126,10 +128,12 @@ h3 {
     display: flex;
     align-items: center;
     text-align: center;
-    background-color: rgb(126, 113, 113);
+    background-color: rgb(47, 48, 110);
     position: relative;
     transform: translateY(-100px);
     font-size: 14px;
+    border: 1px solid black;
+    box-shadow: 2px 2px black, 3px 3px white;
 }
 
 .card:hover .bottom-layer {
