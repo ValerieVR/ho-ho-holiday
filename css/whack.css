@@ -71,7 +71,7 @@ button {
   text-shadow: 2px 2px rgb(122, 117, 117);
   font-family:'Press Start 2P', cursive;
   box-shadow: 4px 6px 3px #beb4b4;
-  margin-left: 550px;
+  margin-left: 450px;
 }
 
 Button:active{
@@ -86,7 +86,7 @@ Button:active{
 
 
 h3{
-  font-size: 30px;
+  font-size: 25px;
   box-sizing: border-box;
   width: 200px;
   height: 110px;
@@ -97,13 +97,13 @@ h3{
   font-family:'Press Start 2P', cursive;
   box-sizing: border-box;
   border-radius: 40px 40px 0 0;
-  margin-top: 100px;
+  margin-top: 30px;
   margin-left:50px;
   box-shadow:
-  inset -20px 0 80px rgb(232, 147, 240),
-  inset -20px 0 300px rgb(231, 178, 233),
+  inset -20px 0 80px rgb(132, 209, 214),
+  inset -20px 0 300px rgb(95, 224, 233),
   0 0 50px #fff,
-  10px 0 80px rgb(209, 52, 230);
+  10px 0 80px rgb(172, 216, 219);
   animation: glow 1.9s linear   infinite;
 
 }
@@ -114,7 +114,7 @@ h3{
   margin: auto;
   cursor: url(../assets/img/whack/ham1.png), auto;
   margin-top:-280px;
-  margin-left:5Opx;
+ 
  
 
 }
@@ -140,6 +140,7 @@ h3{
   background-size: 80%;
   position: absolute;
   bottom: -70px;
+  opacity: 0.8;
 }
 
 .rat {
@@ -150,6 +151,7 @@ h3{
   position: absolute;
   top: 100px;
   transition: top 0.2s;
+  opacity: 0.7;
 }
 
 .hole.up .rat {
@@ -157,11 +159,13 @@ h3{
 }
 
 img{
-  width:100px;
-  height: 100px;
+  width:120px;
+  height: 120px;
   margin-left: 50px;
+  margin-top:100px;
   animation: bounce 0.4s infinite alternate;
   -webkit-animation: bounce 0.4s infinite alternate;
+  opacity: 0.8;
 }
 
 
@@ -186,11 +190,12 @@ img{
 
 
 .img2{
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   margin-top: -80px;
   padding-bottom: 50px;
   animation: rotation 6s infinite linear;
+  opacity: 0.6;
  
 }
 
