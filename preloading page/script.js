@@ -13,7 +13,7 @@ function animate(){
         percent.textContent = "COMPLETED..."
         percent.classList.add("text-blink");
         clearInterval(loading);
-        location.href = "https://www.thecrazyprogrammer.com/2019/09/javascript-tic-tac-toe-game.html"
+
     }else{
         per =per+4
         count = count + 1;
