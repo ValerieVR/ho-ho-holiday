@@ -3,8 +3,8 @@ const rats = document.querySelectorAll('.rat');
 const boardScore = document.querySelector('.score');
 const sounds = document.querySelector('#sounds');
 const soundOne = document.querySelector('#soundOne');
-
-//const play = document.querySelector('.start');
+let counter = 0;
+let timeleft = 10;
 
 let moleBefore;
 let finish ;
@@ -70,24 +70,16 @@ rats.forEach( r => {
 
 // timer
 
-t = timeLeft.textContent
-setInterval(() => {
-    t--
-    timeLeft.textContent = t
-    if(t === 0)
-    {
-        alert("Game Over, your final score is "+ r)
-        timeLeft.textContent = 60
-        t=60
-    }
-}, 500)
+function setup(){
+    noCanvas();
+}
 
-// reset
+let timer = document.querySelector('#timer');
+timer.html = counter;
 
-const reset = document.querySelector("#reset")
-reset.addEventListener("click",function(){
-    score.textContent = 0
-    timeLeft.textContent = 60
-    t=60
-})
+function timeIt() {
+    counter++;
+    timer.html = timeleft - counter;
 
+}
+setInterval(timeIt, 1000);
