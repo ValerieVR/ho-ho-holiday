@@ -1,4 +1,7 @@
 
+
+
+
 const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext("2d");
 const box = 20;
@@ -26,7 +29,7 @@ foodImgFn();
 
 let snake =[]
 snake[0]={
-    x:9*box,
+    x:12*box,
     y:10*box
 }
 //TODO get food
@@ -77,7 +80,7 @@ function draw() {
         y:snakeY
     }
 
-    if( snakeX< 0 || snakeY< 0 || snakeX >canvas.width- 2*box || snakeY>canvas.height- box || collision(newHead,snake) ) {
+    if( snakeX< 0 || snakeY< 0 || snakeX >canvas.width- box || snakeY>canvas.height - 8.5|| collision(newHead,snake) ) {
         hitMe.play();
         clearInterval(game)
     }
