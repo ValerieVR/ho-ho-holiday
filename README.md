@@ -29,6 +29,7 @@ Made by [Valerie](https://github.com/ValerieVR).
 - Google Fonts
 - Favicon converter
 - Flaticon
+- Font Awesome
 - Markdown
 - Zapsplat
 - Subpng
