@@ -82,7 +82,7 @@ body {
     transform: rotateY(180deg);
 }
 
-button {
+#playMuteBTN {
   padding: 10px 25px;
   font-size: 30px;
   min-width: 80px;
@@ -91,7 +91,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
   border: none;
-  background:linear-gradient(to bottom right, #165285, #609CCD);;
+  background:linear-gradient(to bottom right, #165285, #609CCD);
 }
 
 .flex-container {

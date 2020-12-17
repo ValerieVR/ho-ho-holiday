@@ -1,7 +1,7 @@
 const cards = document.querySelectorAll(".memory-card");
 
 let audio = document.getElementById("audio");
-let playPauseBTN = document.getElementById("playPauseBTN");
+let playMuteBTN = document.getElementById("playMuteBTN");
 let count = 0;
 
 let hasFlippedCard = false;
@@ -63,15 +63,15 @@ cards.forEach(card => {
     card.addEventListener("click", flipCard);
 });
 
-playPauseBTN.addEventListener("click", () => {
+playMuteBTN.addEventListener("click", () => {
     if(count == 0) {
         count = 1;
         audio.play();
-        playPauseBTN.innerHTML = "<i class='fas fa-volume-off'></i>";
+        playMuteBTN.innerHTML = "<i class='fas fa-volume-off'></i>";
     } else {
         count = 0;
         audio.pause();
-        playPauseBTN.innerHTML = "<i class='fas fa-volume-mute'></i>";
+        playMuteBTN.innerHTML = "<i class='fas fa-volume-mute'></i>";
     }
 });
 
