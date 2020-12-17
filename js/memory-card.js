@@ -63,17 +63,19 @@ cards.forEach(card => {
     card.addEventListener("click", flipCard);
 });
 
-function playPause() {
+playPauseBTN.addEventListener("click", () => {
     if(count == 0) {
         count = 1;
         audio.play();
-        playPauseBTN.innerHTML = "Pause &#9208;";
+        playPauseBTN.innerHTML = "<i class='fas fa-volume-off'></i>";
     } else {
         count = 0;
         audio.pause();
-        playPauseBTN.innerHTML = "Play &#9658;";
+        playPauseBTN.innerHTML = "<i class='fas fa-volume-mute'></i>";
     }
-}
+});
+
+
 
 
 
