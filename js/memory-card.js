@@ -75,10 +75,5 @@ function playPause() {
     }
 }
 
-function stop() {
-    playPause();
-    audio.pause();
-    audio.currentTime = 0;
-    playPauseBTN.innerHTML = "Play &#9658;";
-}
+
 
