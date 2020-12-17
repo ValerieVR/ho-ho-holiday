@@ -3,26 +3,34 @@
 
 
 
-var progress = document.querySelector('.progress');
-var percent = document.querySelector('.percent')
-var count = 4;
-var per = 16;
-var loading = setInterval(animate,10);
-function animate(){
-    if (count == 100 && per == 400){
-        percent.textContent = "COMPLETED..."
-        percent.classList.add("text-blink");
-        clearInterval(loading);
+var loading = document.querySelector('.loading');
 
-    }else{
-        per =per+4
-        count = count + 1;
-        progress.style.width = per + 'px'
-        percent.textContent = "LOADING..."
+
+window.addEventListener('load', (event) =>{
+
+    var progress = document.querySelector('.progress');
+    var percent = document.querySelector('.percent')
+    var count = 4;
+    var per = 16;
+    var loading = setInterval(animate,10);
+    /*document.getElementById('loading').style.display = "block";
+    document.getElementById("wrapper").style.display = "none";*/
+    function animate() {
+        if (count == 100 && per == 400) {
+            percent.textContent = "COMPLETED..."
+            percent.classList.add("text-blink");
+            clearInterval(loading);
+            document.getElementById("loading").style.opacity = 0;
+            document.getElementById("wrapper").style.opacity = 1;
+            /* location.href = "https://www.thecrazyprogrammer.com/2019/09/javascript-tic-tac-toe-game.html"*/
+        } else {
+            per = per + 4
+            count = count + 1;
+            progress.style.width = per + 'px'
+            percent.textContent = "LOADING..."
+        }
     }
-}
-
-
+})
 //background
 
 const COLOR_SPACE ="black";
@@ -36,7 +44,7 @@ var canvas = document.createElement("canvas");
 var ctx = canvas.getContext("2d");
 canvas.height = document.documentElement.clientHeight;
 canvas.width = document.documentElement.clientWidth;
-document.body.appendChild(canvas);
+document.body.append(canvas);
 
 // set up the stars
 var stars = [];
