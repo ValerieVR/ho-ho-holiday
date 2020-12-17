@@ -90,4 +90,8 @@ button {
   background:linear-gradient(to bottom right, #165285, #609CCD);;
 }
 
+.flex-container {
+  display: flex;
+}
+
 
