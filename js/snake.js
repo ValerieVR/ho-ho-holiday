@@ -19,7 +19,7 @@ const foodImg = new Image(20,20)
 
 //TODO foodimg
 function foodImgFn (){
-foodImg.src = "../assets/img/snakeGame/food.jpg"
+foodImg.src = "../assets/img/snakeGame/food.png"
     foodImg .onload = function(){
         ctx.drawImage(foodImg , food.x, food.y);
 
@@ -48,8 +48,10 @@ function draw() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     for (let i = 0; i < snake.length; i++) {
-
-        ctx.fillStyle = 'lightgreen'
+        var grd = ctx.createLinearGradient(0, 0, 170, 0);
+        grd.addColorStop(0, "#cc0099");
+        grd.addColorStop(1, "#ff66cc");
+        ctx.fillStyle = grd;
 
         ctx.fillRect(snake[i].x, snake[i].y, box, box)
         ctx.strokeStyle = 'brown';

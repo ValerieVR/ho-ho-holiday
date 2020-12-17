@@ -1,10 +1,9 @@
 canvas{
-    background-image: url("../assets/img/snakeGame/canvas.jpg");
-    background-repeat: no-repeat;
+    background-color: #010107;
     display: block;
     margin: 0 auto;
 
-    background-size: cover;
+
 
 
 }
@@ -33,3 +32,31 @@ align-items: center;
     margin: 0;
     padding: 0;
 }
+.navbar {
+    width: 100%;
+    overflow: auto;
+    font-family: 'Press Start 2P', cursive;
+    
+    
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color:#f011cb;
+  }
+  
+  
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
