@@ -33,6 +33,7 @@ Made by [Valerie](https://github.com/ValerieVR).
 - Markdown
 - Zapsplat
 - Subpng
+- Free Music channel on YouTube
 
 ## :video_game: Let's play!
 
