@@ -6,10 +6,39 @@
 
 body {
     height: 100vh;
-    display: flex;
+   
     background-image: url(../assets/img/memory-card/retro.jpg);
     background-size: cover;
 }
+
+.navbar {
+    background-color:#010107;
+    overflow: auto;
+    font-family: 'Press Start 2P', cursive;
+    
+    
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color:#f011cb;
+  }
+  
+  
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
 
 .memory-game {
     width: 640px;
