@@ -44,6 +44,36 @@ body{
 .progress{
     width: 200px;
     height: 15px;
-    background: #f60d54;
+    background: #f011cb;
     border-radius: 13px;
 }
+
+.navbar {
+    width: 100%;
+    background-color:black;
+    overflow: auto;
+    font-family: 'Press Start 2P', cursive;
+    
+    
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color:#f011cb;
+  }
+  
+  
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
