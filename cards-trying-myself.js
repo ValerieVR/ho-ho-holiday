@@ -16,6 +16,9 @@ window.addEventListener('load', (event) =>{
             clearInterval(loading);
             document.getElementById("loading").style.opacity = 0;
             document.getElementById("container").style.opacity = 1;
+            document.getElementById("navbar").style.opacity= 1;
+            document.getElementById("footer").style.opacity = 1;
+            document.getElementById("h1").style.opacity = 1;
         } else {
             per = per + 4
             count = count + 1;
