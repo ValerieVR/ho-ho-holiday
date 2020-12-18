@@ -21,24 +21,28 @@ Train your memory by finding the matching cards.
 
 Made by [Valerie](https://github.com/ValerieVR).
 
+## :video_game: Let's play!
+https://valerievr.github.io/ho-ho-holiday/
+
 ## :wrench: Tools
 - Visual Studio Code
 - Php storm
-- Languages: HTML, CSS, (vanilla) JavaScript
+- HTML, CSS, (vanilla) JavaScript, Markdown
 - Google (of course), stack overflow , 3w school .... ect;
 - YouTube
 - Google Fonts
 - Favicon converter
 - Flaticon
 - Font Awesome
-- Markdown
 - Zapsplat
 - Subpng
 - Free Music channel on YouTube
 
+## :memo: To Do
+We still have to make our website responsive.
 
-## :video_game: Let's play!
-https://valerievr.github.io/ho-ho-holiday/
+## :bug: Bugs
+In the homepage the footer is not visible on all screen sizes. This has nothing to do with the responsiveness of our website. We are still trying to figure this out, bear with us.
 
 ## :pray: Thanks to
 [BeCode](https://github.com/becodeorg)
