@@ -27,12 +27,7 @@ body{
 
 
 
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-  }
-}
+
 
 h1 {
   margin:40px;
@@ -219,4 +214,56 @@ p{
   color:#189aa2;
   font-family:'Press Start 2P', cursive;
   text-shadow: 2px 2px black, 3px 3px white;
+}
+
+@media screen and (max-width: 760px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+
+  .button{
+   margin:auto;
+  }
+
+.container{
+  margin: auto;
+  padding: 10px;
+}
+  
+
+  h1{
+    margin-top:-130px;
+    font-size:40px;
+  }
+
+  p{
+    margin:130px;
+    margin-top:-20px;
+    font-size: 2Opx;
+ 
+
+   
+  }
+
+  button{
+    margin:100px;
+    margin-top:-100px
+
+    
+  }
+  img {
+    opacity: 0;
+  }
+
+  h3{
+    margin-top:-290px;
+    font-size:13px;
+    width: 100px;
+    height: 60px;
+  }
+
+  .img2{
+    opacity: 0;
+  }
 }

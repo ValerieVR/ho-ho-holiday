@@ -3,8 +3,10 @@ const rats = document.querySelectorAll('.rat');
 const boardScore = document.querySelector('.score');
 const sounds = document.querySelector('#sounds');
 const soundOne = document.querySelector('#soundOne');
-let counter = 0;
-let timeleft = 10;
+const timerText = document.querySelector('#timer');
+
+let count = 0;
+
 
 let moleBefore;
 let finish ;
@@ -48,6 +50,15 @@ function play (){
     setTimeout(() => {
     finish = true ;
     }, 10000);
+
+    setInterval(function(){
+        count += 1;
+        timerText.textContent = count;
+        
+        
+        
+    }, 1000);
+
 }
 
 
@@ -68,18 +79,3 @@ rats.forEach( r => {
     });
 
 
-// timer
-
-function setup(){
-    noCanvas();
-}
-
-let timer = document.querySelector('#timer');
-timer.html = counter;
-
-function timeIt() {
-    counter++;
-    timer.html = timeleft - counter;
-
-}
-setInterval(timeIt, 1000);
