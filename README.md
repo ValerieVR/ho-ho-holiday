@@ -23,8 +23,9 @@ Made by [Valerie](https://github.com/ValerieVR).
 
 ## :wrench: Tools
 - Visual Studio Code
+- Php storm
 - Languages: HTML, CSS, (vanilla) JavaScript
-- Google (of course)
+- Google (of course), stack overflow , 3w school .... ect;
 - YouTube
 - Google Fonts
 - Favicon converter
@@ -34,6 +35,7 @@ Made by [Valerie](https://github.com/ValerieVR).
 - Zapsplat
 - Subpng
 - Free Music channel on YouTube
+
 
 ## :video_game: Let's play!
 https://valerievr.github.io/ho-ho-holiday/

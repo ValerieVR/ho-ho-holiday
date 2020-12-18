@@ -11,10 +11,11 @@ window.addEventListener('load', (event) =>{
 
     function animate() {
         if (count == 100 && per == 400) {
+            document.getElementById("loading").style.opacity = 0;
+
             percent.textContent = "COMPLETED..."
             percent.classList.add("text-blink");
             clearInterval(loading);
-            document.getElementById("loading").style.opacity = 0;
             document.getElementById("container").style.opacity = 1;
             document.getElementById("navbar").style.opacity= 1;
             document.getElementById("footer").style.opacity = 1;

@@ -25,7 +25,7 @@ h1 {
 }
 
 body {
-    background-image: url("../retro.jpg");
+    background-image: url("../assets/img/snakeGame/retro.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
