@@ -49,7 +49,7 @@ function play (){
     getRats();
     setTimeout(() => {
     finish = true ;
-    }, 10000);
+    }, 20000);
 
     setInterval(function(){
         count += 1;
