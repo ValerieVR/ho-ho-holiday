@@ -82,7 +82,7 @@ function draw() {
         y:snakeY
     }
 
-    if( snakeX< 0 || snakeY< 0 || snakeX >canvas.width- box || snakeY>canvas.height - 8.5|| collision(newHead,snake) ) {
+    if( snakeX< 0 || snakeY< 0 || snakeX >canvas.width- box || snakeY>canvas.height - box|| collision(newHead,snake) ) {
         hitMe.play();
         clearInterval(game)
     }
