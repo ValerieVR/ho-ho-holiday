@@ -1,13 +1,16 @@
 * {
-    margin: 0;
+  margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+
 }
 
 body {
     /* background: black;
     size: cover;*/
     font-family: 'Press Start 2P', cursive;
+    overflow-y: scroll;
 
 }
 
@@ -162,6 +165,7 @@ canvas {
     left: 0;
     width: 100%;
     height: auto;
+
     z-index: -1;
 
 
