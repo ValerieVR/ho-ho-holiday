@@ -8,7 +8,6 @@ body {
     /* background: black;
     size: cover;*/
     font-family: 'Press Start 2P', cursive;
-
 }
 
 .navbar {
@@ -66,7 +65,6 @@ h1 {
     justify-content: space-around;
     align-items: center;
     opacity: 0;
-
 }
 
 .test {
@@ -152,23 +150,17 @@ footer {
     align-items: center;
     justify-content: end;
     text-align: center;
-   margin-top: 80px;
+    margin-top: 80px;
     opacity: 0
 }
 
 canvas {
-   position: absolute;
-   top: 0;
+    position: absolute;
+    top: 0;
     left: 0;
     width: 100%;
-    height: auto;
+    height: 110%;
     z-index: -1;
-
-
-
-
-
-
 }
 
 .loading {
@@ -226,4 +218,3 @@ h1 {
 .navbar {
     opacity: 0
 }
-
