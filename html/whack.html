@@ -2,70 +2,81 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>whack an Alien </title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="../css/whack.css">
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=G-75L28C4LCZ"></script>
-   <script>
-       window.dataLayer = window.dataLayer || [];
-       function gtag(){dataLayer.push(arguments);}
-       gtag('js', new Date());
- 
-       gtag('config', 'G-75L28C4LCZ');
-   </script>
+    <meta property="og:title" content="Whack an alien">
+    <meta property="og:site_name" content="Retro Waves">
+    <meta property="og:url" content="https://valerievr.github.io/ho-ho-holiday/html/whack.html">
+    <meta property="og:description" content="Feeling frustrated, whack an alien.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://github.com/ValerieVR/ho-ho-holiday/blob/main/assets/img/whack-an-alien-card.png">
+
+    <title>whack an Alien </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/whack.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-75L28C4LCZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-75L28C4LCZ');
+    </script>
 </head>
 
 <body>
-  <div class="navbar">
-    <a class="active" href="../index.html"><i class="fa fa-fw fa-home"></i></a>
-    <a href="#"><i class="fa fa-fw fa-search"></i></a>
-    <a href="#"><i class="fa fa-fw fa-envelope"></i></a>
-    <a href="#"><i class="fa fa-fw fa-user"></i></a>
-  </div>
- 
-  <div class="header">
-      <h1>Whack An Alien</h1>
-      <p id="timer">Timers</p>
-      <img src="../assets/img/whack/alien2.png" alt="" />
-      <button  type="button" class="start" onclick="play()"> Play </button>
-      <h3>score <br> <br> <span class ="score">0 </span> </h3>
-    
-  </div>
-  
-  </div>
+    <div class="navbar">
+        <a class="active" href="../index.html"><i class="fa fa-fw fa-home"></i></a>
+        <a href="#"><i class="fa fa-fw fa-search"></i></a>
+        <a href="#"><i class="fa fa-fw fa-envelope"></i></a>
+        <a href="#"><i class="fa fa-fw fa-user"></i></a>
+    </div>
+
+    <div class="header">
+        <h1>Whack An Alien</h1>
+        <p id="timer">Timers</p>
+        <img src="../assets/img/whack/alien2.png" alt="" />
+        <button type="button" class="start" onclick="play()"> Play </button>
+        <h3>score <br> <br> <span class="score">0 </span> </h3>
+
+    </div>
+
+    </div>
     <div class="container">
-      <div class="hole ">
-      <div class="rat"></div>
+        <div class="hole ">
+            <div class="rat"></div>
+        </div>
+        <div class="hole">
+            <div class="rat"></div>
+        </div>
+        <div class="hole">
+            <div class="rat"></div>
+        </div>
+        <div class="hole">
+            <div class="rat"></div>
+        </div>
+        <div class="hole ">
+            <div class="rat"></div>
+        </div>
+        <div class="hole">
+            <div class="rat"></div>
+        </div>
     </div>
-    <div class="hole">
-      <div class="rat"></div>
-    </div>
-    <div class="hole">
-      <div class="rat"></div>
-    </div>
-    <div class="hole">
-      <div class="rat"></div>
-    </div>
-    <div class="hole ">
-      <div class="rat"></div>
-    </div>
-    <div class="hole">
-      <div class="rat"></div>
-    </div>
-  </div>
-  <img class="img2" src="../assets/img/whack/planet2.png" alt=""/>
-  
-  
-  <audio src="../assets/sounds/pop.mp3" id="sounds"></audio>
-  <audio src="../assets/sounds/sonic.mp3" id="soundOne"></audio>
-  <script src="../js/whack.js"></script>
+    <img class="img2" src="../assets/img/whack/planet2.png" alt="" />
+
+
+    <audio src="../assets/sounds/pop.mp3" id="sounds"></audio>
+    <audio src="../assets/sounds/sonic.mp3" id="soundOne"></audio>
+    <script src="../js/whack.js"></script>
 
 </body>
 

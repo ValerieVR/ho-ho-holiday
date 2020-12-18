@@ -4,20 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="Space Invaders">
+    <meta property="og:site_name" content="Retro Waves">
+    <meta property="og:url" content="https://valerievr.github.io/ho-ho-holiday/html/space-invaders.html">
+    <meta property="og:description" content="Got enough of those evil aliens. Enter and save humanity!">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://github.com/ValerieVR/ho-ho-holiday/blob/main/assets/img/space-invaders-card.png">
+
     <link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/space-invaders.css">
     <title>Space Invaders</title>
-     <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-75L28C4LCZ"></script>
-  <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-75L28C4LCZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-      gtag('config', 'G-75L28C4LCZ');
-  </script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-75L28C4LCZ');
+    </script>
 </head>
 
 <body>
@@ -26,7 +37,7 @@
         <a href="#"><i class="fa fa-fw fa-search"></i></a>
         <a href="#"><i class="fa fa-fw fa-envelope"></i></a>
         <a href="#"><i class="fa fa-fw fa-user"></i></a>
-      </div>
+    </div>
     <div id="container">
         <h3>Score:<span id="result"></span></h3>
         <!-- 15 x 15 = 225 = size of the game 15 squares by 15 squares -->
