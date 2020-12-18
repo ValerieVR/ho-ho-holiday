@@ -38,12 +38,6 @@ https://valerievr.github.io/ho-ho-holiday/
 - Subpng
 - Free Music channel on YouTube
 
-## :memo: To Do
-We still have to make our website responsive.
-
-## :bug: Bugs
-In the homepage the footer is not visible on all screen sizes. This has nothing to do with the responsiveness of our website. We are still trying to figure this out, bear with us.
-
 ## :pray: Thanks to
 [BeCode](https://github.com/becodeorg)
 
