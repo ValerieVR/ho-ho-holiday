@@ -4,7 +4,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Press Start 2P", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -82,32 +81,32 @@ body {
     transform: rotateY(180deg);
 }
 
-button {
-  padding: 10px 25px;
-  font-size: 30px;
-  min-width: 80px;
-  height: 60px;
-  line-height: 40px;
-  border-radius: 5px;
-  cursor: pointer;
+#playMuteBTN {
+  font-family: "Press Start 2P";
+  background: linear-gradient(to right bottom, #165488, #659FCE);
   border: none;
-  background:linear-gradient(to bottom right, #165285, #609CCD);;
+  padding: 5px;
 }
 
-.flex-container {
+.container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-.scoretracker {
-  color:#FAA658;
-  text-align: center;
-  font-size: 30px;
+#sound {
+  margin-right: 30px;
+  margin-top: 20px;
 }
 
-p {
-  margin: 30px;
-}
+
+
+
+
+
+
+
+
+
 
 
 
