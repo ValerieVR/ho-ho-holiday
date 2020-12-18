@@ -36,6 +36,7 @@ Made by [Valerie](https://github.com/ValerieVR).
 - Free Music channel on YouTube
 
 ## :video_game: Let's play!
+https://valerievr.github.io/ho-ho-holiday/
 
 ## :pray: Thanks to
 [BeCode](https://github.com/becodeorg)
