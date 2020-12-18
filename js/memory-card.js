@@ -1,5 +1,9 @@
 const cards = document.querySelectorAll(".memory-card");
 
+let audio = document.getElementById("audio");
+let playMuteBTN = document.getElementById("playMuteBTN");
+let count = 0;
+
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
@@ -58,4 +62,21 @@ function resetBoard() {
 cards.forEach(card => {
     card.addEventListener("click", flipCard);
 });
+
+
+playMuteBTN.addEventListener("click", () => {
+    if(count == 0) {
+        count = 1;
+        audio.play();
+        playMuteBTN.innerHTML = "Pause music";
+    } else {
+        count = 0;
+        audio.pause();
+        playMuteBTN.innerHTML = "Play music";
+    }
+});
+
+
+
+
 

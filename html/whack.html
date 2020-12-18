@@ -11,11 +11,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="../css/whack.css">
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-75L28C4LCZ"></script>
+   <script>
+       window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());
+ 
+       gtag('config', 'G-75L28C4LCZ');
+   </script>
 </head>
 
 <body>
   <div class="navbar">
-    <a class="active" href="#"><i class="fa fa-fw fa-home"></i></a>
+    <a class="active" href="../index.html"><i class="fa fa-fw fa-home"></i></a>
     <a href="#"><i class="fa fa-fw fa-search"></i></a>
     <a href="#"><i class="fa fa-fw fa-envelope"></i></a>
     <a href="#"><i class="fa fa-fw fa-user"></i></a>
@@ -23,6 +32,7 @@
  
   <div class="header">
       <h1>Whack An Alien</h1>
+      <p id="timer">Timers</p>
       <img src="../assets/img/whack/alien2.png" alt="" />
       <button  type="button" class="start" onclick="play()"> Play </button>
       <h3>score <br> <br> <span class ="score">0 </span> </h3>

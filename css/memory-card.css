@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -78,5 +80,34 @@ body {
 .front-face {
     transform: rotateY(180deg);
 }
+
+#playMuteBTN {
+  font-family: "Press Start 2P";
+  background: linear-gradient(to right bottom, #165488, #659FCE);
+  border: none;
+  padding: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#sound {
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 

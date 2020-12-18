@@ -4,73 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/930a15dd08.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
     <link rel="stylesheet" href="../css/memory-card.css">
     <title>Memory Card Game</title>
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-75L28C4LCZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-75L28C4LCZ');
+    </script>
 </head>
 <body>
-  <div class="navbar">
-    <a class="active" href="#"><i class="fa fa-fw fa-home"></i></a>
-    <a href="#"><i class="fa fa-fw fa-search"></i></a>
-    <a href="#"><i class="fa fa-fw fa-envelope"></i></a>
-    <a href="#"><i class="fa fa-fw fa-user"></i></a>
+  <div class="container">
+    <div class="navbar">
+      <a class="active" href="../index.html"><i class="fa fa-fw fa-home"></i></a>
+      <a href="#"><i class="fa fa-fw fa-search"></i></a>
+      <a href="#"><i class="fa fa-fw fa-envelope"></i></a>
+      <a href="#"><i class="fa fa-fw fa-user"></i></a>
+    </div>
+    <div id="sound">
+      <audio id="audio">
+        <source src="../assets/sounds/memory.mp3" type="audio/mpeg">
+      </audio>
+      <button id="playMuteBTN">Play music</button>
+    </div> 
   </div>
-    <section class="memory-game">
-        <div class="memory-card" data-framework="rainbow">
-          <img class="front-face" src="../assets/img/memory-card/rainbow.svg" alt="Rainbow"/>
-          <img class="back-face" src="../assets/img/memory-card/ufo.svg" alt="Palm tree"/>
-        </div>
-        <div class="memory-card" data-framework="rainbow">
-          <img class="front-face" src="../assets/img/memory-card/rainbow.svg" alt="Rainbow"/>
-          <img class="back-face" src="../assets/img/memory-card/ufo.svg" alt="Palm tree"/>
-        </div>
-    
-        <div class="memory-card" data-framework="star">
-          <img class="front-face" src="../assets/img/memory-card/star.svg" alt="Star"/>
-          <img class="back-face" src="../assets/img/memory-card/ufo.svg" alt="Palm tree"/>
-        </div>
-        <div class="memory-card" data-framework="star">
-          <img class="front-face" src="../assets/img/memory-card/star.svg" alt="Star"/>
-          <img class="back-face" src="../assets/img/memory-card/ufo.svg" alt="Palm tree"/>
-        </div>
-    
-        <div class="memory-card" data-framework="anonymous">
-          <img class="front-face" src="../assets/img/memory-card/anonymous.svg" alt="Anonymous person"/>
-          <img class="back-face" src="../assets/img/memory-card/ufo.svg" alt="Palm tree"/>
-        </div>
-        <div class="memory-card" data-framework="anonymous">
-          <img class="front-face" src="../assets/img/memory-card/anonymous.svg" alt="Anonymous person"/>
-          <img class="back-face" src="../assets/img/memory-card/ufo.svg" alt="Palm tree"/>
-        </div>
-    
-        <div class="memory-card" data-framework="nerd">
-          <img class="front-face" src="../assets/img/memory-card/nerd.svg" alt="Nerd"/>
-          <img class="back-face" src="../assets/img/memory-card/ufo.svg" alt="Palm tree"/>
-        </div>
-        <div class="memory-card" data-framework="nerd">
-          <img class="front-face" src="../assets/img/memory-card/nerd.svg" alt="Nerd"/>
-          <img class="back-face" src="../assets/img/memory-card/ufo.svg" alt="Palm tree"/>
-        </div>
-    
-        <div class="memory-card" data-framework="sun">
-          <img class="front-face" src="../assets/img/memory-card/sun.svg" alt="Sun"/>
-          <img class="back-face" src="../assets/img/memory-card/ufo.svg" alt="Palm tree"/>
-        </div>
-        <div class="memory-card" data-framework="sun">
-          <img class="front-face" src="../assets/img/memory-card/sun.svg" alt="Sun"/>
-          <img class="back-face" src="../assets/img/memory-card/ufo.svg" alt="Palm tree"/>
-        </div>
-    
-        <div class="memory-card" data-framework="heart">
-          <img class="front-face" src="../assets/img/memory-card/heart.svg" alt="Heart"/>
-          <img class="back-face" src="../assets/img/memory-card/ufo.svg" alt="Palm tree"/>
-        </div>
-        <div class="memory-card" data-framework="heart">
-          <img class="front-face" src="../assets/img/memory-card/heart.svg" alt="Heart"/>
-          <img class="back-face" src="../assets/img/memory-card/ufo.svg" alt="Palm tree"/>
-        </div>
-      </section>
- 
-    <script src="../js/memory-card.js"></script>
+  
+    <div class="memory-game">
+      <div class="memory-card" data-framework="rainbow">
+        <img class="front-face" src="../assets/img/memory-card/rainbow.svg" alt="Rainbow"/>
+        <img class="back-face" src="../assets/img/memory-card/ufo.svg" alt="Palm tree"/>
+      </div>
+      <div class="memory-card" data-framework="rainbow">
+        <img class="front-face" src="../assets/img/memory-card/rainbow.svg" alt="Rainbow"/>
+        <img class="back-face" src="../assets/img/memory-card/ufo.svg" alt="Palm tree"/>
+      </div>
+  
+      <div class="memory-card" data-framework="star">
+        <img class="front-face" src="../assets/img/memory-card/star.svg" alt="Star"/>
+        <img class="back-face" src="../assets/img/memory-card/ufo.svg" alt="Palm tree"/>
+      </div>
+      <div class="memory-card" data-framework="star">
+        <img class="front-face" src="../assets/img/memory-card/star.svg" alt="Star"/>
+        <img class="back-face" src="../assets/img/memory-card/ufo.svg" alt="Palm tree"/>
+      </div>
+  
+      <div class="memory-card" data-framework="anonymous">
+        <img class="front-face" src="../assets/img/memory-card/anonymous.svg" alt="Anonymous person"/>
+        <img class="back-face" src="../assets/img/memory-card/ufo.svg" alt="Palm tree"/>
+      </div>
+      <div class="memory-card" data-framework="anonymous">
+        <img class="front-face" src="../assets/img/memory-card/anonymous.svg" alt="Anonymous person"/>
+        <img class="back-face" src="../assets/img/memory-card/ufo.svg" alt="Palm tree"/>
+      </div>
+  
+      <div class="memory-card" data-framework="nerd">
+        <img class="front-face" src="../assets/img/memory-card/nerd.svg" alt="Nerd"/>
+        <img class="back-face" src="../assets/img/memory-card/ufo.svg" alt="Palm tree"/>
+      </div>
+      <div class="memory-card" data-framework="nerd">
+        <img class="front-face" src="../assets/img/memory-card/nerd.svg" alt="Nerd"/>
+        <img class="back-face" src="../assets/img/memory-card/ufo.svg" alt="Palm tree"/>
+      </div>
+  
+      <div class="memory-card" data-framework="sun">
+        <img class="front-face" src="../assets/img/memory-card/sun.svg" alt="Sun"/>
+        <img class="back-face" src="../assets/img/memory-card/ufo.svg" alt="Palm tree"/>
+      </div>
+      <div class="memory-card" data-framework="sun">
+        <img class="front-face" src="../assets/img/memory-card/sun.svg" alt="Sun"/>
+        <img class="back-face" src="../assets/img/memory-card/ufo.svg" alt="Palm tree"/>
+      </div>
+  
+      <div class="memory-card" data-framework="heart">
+        <img class="front-face" src="../assets/img/memory-card/heart.svg" alt="Heart"/>
+        <img class="back-face" src="../assets/img/memory-card/ufo.svg" alt="Palm tree"/>
+      </div>
+      <div class="memory-card" data-framework="heart">
+        <img class="front-face" src="../assets/img/memory-card/heart.svg" alt="Heart"/>
+        <img class="back-face" src="../assets/img/memory-card/ufo.svg" alt="Palm tree"/>
+      </div>
+    </div>
+   
+  <script src="../js/memory-card.js"></script>
 </body>
 </html>
