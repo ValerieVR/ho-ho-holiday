@@ -10,17 +10,21 @@
     <title>Memory Card Game</title>
 </head>
 <body>
-  <div class="navbar">
-    <a class="active" href="../index.html"><i class="fa fa-fw fa-home"></i></a>
-    <a href="#"><i class="fa fa-fw fa-search"></i></a>
-    <a href="#"><i class="fa fa-fw fa-envelope"></i></a>
-    <a href="#"><i class="fa fa-fw fa-user"></i></a>
-  </div>
-  <div class="flex-container">
-    <div class="scoretracker">
-      <p>Score:</p>
-      <p>0</p>
+  <div class="container">
+    <div class="navbar">
+      <a class="active" href="../index.html"><i class="fa fa-fw fa-home"></i></a>
+      <a href="#"><i class="fa fa-fw fa-search"></i></a>
+      <a href="#"><i class="fa fa-fw fa-envelope"></i></a>
+      <a href="#"><i class="fa fa-fw fa-user"></i></a>
     </div>
+    <div id="sound">
+      <audio id="audio">
+        <source src="../assets/sounds/memory.mp3" type="audio/mpeg">
+      </audio>
+      <button id="playMuteBTN">Play music</button>
+    </div> 
+  </div>
+  
     <div class="memory-game">
       <div class="memory-card" data-framework="rainbow">
         <img class="front-face" src="../assets/img/memory-card/rainbow.svg" alt="Rainbow"/>
@@ -76,14 +80,7 @@
         <img class="back-face" src="../assets/img/memory-card/ufo.svg" alt="Palm tree"/>
       </div>
     </div>
-    <div id="sound">
-      <audio id="audio">
-        <source src="../assets/sounds/memory.mp3" type="audio/mpeg">
-      </audio>
-      <button id="playMuteBTN"><i class="fas fa-volume-mute"></i></button>
-    </div>
-  </div>
- 
+   
   <script src="../js/memory-card.js"></script>
 </body>
 </html>
