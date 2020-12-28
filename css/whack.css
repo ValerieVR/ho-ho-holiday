@@ -52,7 +52,7 @@ h1 {
 
 button {
   position:absolute;
-  height:50px;
+  height:40px;
   width:120px;
   background:#189aa2;
   border-radius:6px;
@@ -63,8 +63,8 @@ button {
   text-shadow: 2px 2px rgb(122, 117, 117);
   font-family:'Press Start 2P', cursive;
   box-shadow: 4px 6px 3px #beb4b4;
-  margin-left: 550px;
-  margin-top:-85px;
+  margin-left: 590px;
+  margin-top:-75px;
 }
 
 Button:active{
@@ -206,7 +206,7 @@ img{
 }
 
 p{
-  font-size: 40px;
+  font-size: 30px;
   margin-left: 450px;
   color:#189aa2;
   font-family:'Press Start 2P', cursive;

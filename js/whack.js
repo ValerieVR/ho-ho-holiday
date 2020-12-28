@@ -5,7 +5,7 @@ const sounds = document.querySelector('#sounds');
 const soundOne = document.querySelector('#soundOne');
 const timerText = document.querySelector('#timer');
 
-let count = 0;
+var timeleft = 20;
 
 
 let moleBefore;
@@ -51,13 +51,22 @@ function play (){
     finish = true ;
     }, 20000);
 
-    setInterval(function(){
+    /*setInterval(function(){
         count += 1;
         timerText.textContent = count;
         
         
         
-    }, 1000);
+    }, 1000);*/
+    var downloadTimer = setInterval(function(){
+        if(timeleft <= 0){
+          clearInterval(downloadTimer);
+          document.getElementById("timer").innerHTML = "Finished";
+        } else {
+          document.getElementById("timer").innerHTML = timeleft ;
+        }
+        timeleft -= 1;
+      }, 1000);
 
 }
 
