@@ -11,6 +11,7 @@ body {
     background-image: url(../assets/img/memory-card/retro.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .navbar {
