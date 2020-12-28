@@ -26,9 +26,9 @@ https://valerievr.github.io/ho-ho-holiday/
 
 ## :wrench: Tools
 - Visual Studio Code
-- Php storm
+- PHP storm
 - HTML, CSS, (vanilla) JavaScript, Markdown
-- Google (of course), stack overflow , 3w school .... ect;
+- Google (of course), stack overflow , w3schools .... etc;
 - YouTube
 - Google Fonts
 - Favicon converter
