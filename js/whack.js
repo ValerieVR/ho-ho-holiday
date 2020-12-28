@@ -3,7 +3,7 @@ const rats = document.querySelectorAll('.rat');
 const boardScore = document.querySelector('.score');
 const sounds = document.querySelector('#sounds');
 const soundOne = document.querySelector('#soundOne');
-let timeleft = 20;
+let timeleft = 25;
 
 
 let moleBefore;
@@ -47,7 +47,7 @@ function play (){
     getRats();
     setTimeout(() => {
     finish = true ;
-    }, 20000);
+    }, 25000);
 
     
     let downloadTimer = setInterval(function(){
