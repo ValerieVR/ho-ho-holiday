@@ -21,24 +21,22 @@ Train your memory by finding the matching cards.
 
 Made by [Valerie](https://github.com/ValerieVR).
 
+## :video_game: Let's play!
+https://valerievr.github.io/ho-ho-holiday/
+
 ## :wrench: Tools
 - Visual Studio Code
-- Php storm
-- Languages: HTML, CSS, (vanilla) JavaScript
-- Google (of course), stack overflow , 3w school .... ect;
+- PHP storm
+- HTML, CSS, (vanilla) JavaScript, Markdown
+- Google (of course), stack overflow , w3schools .... etc;
 - YouTube
 - Google Fonts
 - Favicon converter
 - Flaticon
 - Font Awesome
-- Markdown
 - Zapsplat
 - Subpng
 - Free Music channel on YouTube
-
-
-## :video_game: Let's play!
-https://valerievr.github.io/ho-ho-holiday/
 
 ## :pray: Thanks to
 [BeCode](https://github.com/becodeorg)

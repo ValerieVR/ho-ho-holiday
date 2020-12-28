@@ -7,11 +7,14 @@
 }
 
 body {
-    /* background: black;
+     /*background: black;
     size: cover;*/
     font-family: 'Press Start 2P', cursive;
+<<<<<<< HEAD
     overflow-y: scroll;
 
+=======
+>>>>>>> 4a3025e27b39488c30254945e8da5363888a3d75
 }
 
 .navbar {
@@ -69,7 +72,6 @@ h1 {
     justify-content: space-around;
     align-items: center;
     opacity: 0;
-
 }
 
 .test {
@@ -155,25 +157,18 @@ footer {
     align-items: center;
     justify-content: end;
     text-align: center;
-   margin-top: 10px;
+    margin-top: 50px;
     opacity: 0
 }
 
 canvas {
 
-   position: absolute;
-   top: 0;
+    position: fixed;
+    top: 0;
     left: 0;
     width: 100%;
-    height: auto;
-
+    height: 100%;
     z-index: -1;
-
-
-
-
-
-
 }
 
 .loading {
@@ -231,4 +226,3 @@ h1 {
 .navbar {
     opacity: 0
 }
-
