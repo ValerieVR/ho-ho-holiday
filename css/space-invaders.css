@@ -7,36 +7,29 @@ body {
     overflow: hidden;
 }
 
-
 .navbar {
     width: 100%;
     overflow: auto;
     font-family: 'Press Start 2P', cursive;
-    
-    
-  }
-  
-  .navbar a {
+}
+
+.navbar a {
     float: left;
     padding: 12px;
     color: white;
     text-decoration: none;
     font-size: 17px;
-  }
-  
-  .navbar a:hover {
-    background-color:#f118c2;
-  }
-  
-  
-  
-  @media screen and (max-width: 500px) {
+}
+
+.navbar a:hover {
+    background-color: #f118c2;
+}
+
+@media screen and (max-width: 500px) {
     .navbar a {
-      float: none;
-      display: block;
+        display: block;
     }
-  }
-  
+}
 
 #container {
     display: flex;
