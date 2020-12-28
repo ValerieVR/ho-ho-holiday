@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
 * {
     padding: 0;
     margin: 0;
@@ -7,7 +6,7 @@
 }
 
 body {
-    min-height: 100%;
+    min-height: 100vh;
     min-width: 100%;
     background-image: url(../assets/img/memory-card/retro.jpg);
     -webkit-background-size: cover;
@@ -15,33 +14,34 @@ body {
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: central;
+    background-position: center;
+    /* center instead of central*/
 }
 
 .navbar {
-    background-color:#010107;
+    background-color: #010107;
     overflow: auto;
     font-family: 'Press Start 2P', cursive;
-  }
-  
-  .navbar a {
+}
+
+.navbar a {
     float: left;
     padding: 12px;
     color: white;
     text-decoration: none;
     font-size: 17px;
-  }
-  
-  .navbar a:hover {
-    background-color:#f011cb;
-  }
-  
-  @media screen and (max-width: 500px) {
+}
+
+.navbar a:hover {
+    background-color: #f011cb;
+}
+
+@media screen and (max-width: 500px) {
     .navbar a {
-      float: none;
-      display: block;
+        float: none;
+        display: block;
     }
-  }
+}
 
 .memory-game {
     width: 640px;
@@ -58,7 +58,7 @@ body {
     margin: 5px;
     position: relative;
     transform: scale(1);
-    transform-style:preserve-3d;
+    transform-style: preserve-3d;
     transition: transform .5s;
 }
 
@@ -87,38 +87,23 @@ body {
 }
 
 #playMuteBTN {
-  font-family: "Press Start 2P";
-  background: linear-gradient(to right bottom, #165488, #659FCE);
-  border: none;
-  padding: 5px;
+    font-family: "Press Start 2P";
+    background: linear-gradient(to right bottom, #165488, #659FCE);
+    border: none;
+    padding: 5px;
 }
 
 .container {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 #sound {
-  margin-right: 30px;
-  margin-top: 20px;
+    margin-right: 30px;
+    margin-top: 20px;
 }
 
 #flex-container {
-  display: flex;
-  flex-shrink: inherit;
+    display: flex;
+    flex-shrink: inherit;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
