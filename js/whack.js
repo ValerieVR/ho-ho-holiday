@@ -3,9 +3,7 @@ const rats = document.querySelectorAll('.rat');
 const boardScore = document.querySelector('.score');
 const sounds = document.querySelector('#sounds');
 const soundOne = document.querySelector('#soundOne');
-const timerText = document.querySelector('#timer');
-
-var timeleft = 20;
+let timeleft = 20;
 
 
 let moleBefore;
@@ -51,14 +49,8 @@ function play (){
     finish = true ;
     }, 20000);
 
-    /*setInterval(function(){
-        count += 1;
-        timerText.textContent = count;
-        
-        
-        
-    }, 1000);*/
-    var downloadTimer = setInterval(function(){
+    
+    let downloadTimer = setInterval(function(){
         if(timeleft <= 0){
           clearInterval(downloadTimer);
           document.getElementById("timer").innerHTML = "Finished";
