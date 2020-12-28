@@ -105,5 +105,5 @@ body {
 
 #flex-container {
     display: flex;
-    flex-shrink: inherit;
+    flex-shrink: initial;
 }
