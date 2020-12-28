@@ -1,20 +1,13 @@
 * {
-  margin: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-
 }
 
 body {
-     /*background: black;
+    /*background: black;
     size: cover;*/
     font-family: 'Press Start 2P', cursive;
-<<<<<<< HEAD
-    overflow-y: scroll;
-
-=======
->>>>>>> 4a3025e27b39488c30254945e8da5363888a3d75
 }
 
 .navbar {
@@ -71,6 +64,7 @@ h1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     opacity: 0;
 }
 
@@ -162,7 +156,6 @@ footer {
 }
 
 canvas {
-
     position: fixed;
     top: 0;
     left: 0;
