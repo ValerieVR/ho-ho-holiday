@@ -155,11 +155,12 @@ footer {
     align-items: center;
     justify-content: end;
     text-align: center;
-   margin-top: 80px;
+   margin-top: 10px;
     opacity: 0
 }
 
 canvas {
+
    position: absolute;
    top: 0;
     left: 0;
