@@ -99,6 +99,10 @@ body {
   margin-top: 20px;
 }
 
+#flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 
 
