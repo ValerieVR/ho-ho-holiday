@@ -7,8 +7,8 @@
 }
 
 body {
-    min-height: 100vh;
-    min-width: auto;
+    max-height: 100%;
+    min-width: 100%;
     background-image: url(../assets/img/memory-card/retro.jpg);
     background-size: cover;
     background-repeat: no-repeat;
