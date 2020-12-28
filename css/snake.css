@@ -9,15 +9,18 @@ canvas {
    /* margin-top: -160px;*/
 }
 .container{
-    display: flex;
     flex-direction: row;
     height: 100vh;
+
+    display: flex;
+    align-items: center;
+
 }
 
 .wrapper{
     display: flex;
     flex-direction:column ;
-    width: 15%;
+
 }
 h1 {
     font-size: 40px;
@@ -37,10 +40,16 @@ h1 {
 
 body {
     background-image: url("../assets/img/snakeGame/retro.jpg");
-    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    align-items: center;
-    align-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* center instead of central*/
 }
 
 * {
@@ -67,16 +76,25 @@ body {
 }
 
 @media screen and (max-width: 900px) {
+
     .navbar a {
         float: none;
         display: block;
+        margin-bottom: 10px;
     }
 
-    .container{
-        align-items: center;
-        align-content: center;
+
+
+
+
+    .container {
         display: flex;
+        justify-content: space-between;
         flex-direction: column;
-        height: 100vh;
     }
+/*#flex-container {
+    display: flex;
+    flex-shrink: inherit;
+}*/
+
 }
