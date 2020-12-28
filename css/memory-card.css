@@ -11,7 +11,7 @@ body {
     background-image: url(../assets/img/memory-card/retro.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden; 
+    background-position: center;
 }
 
 .navbar {
@@ -99,6 +99,10 @@ body {
   margin-top: 20px;
 }
 
+#flex-container {
+  display: flex;
+  flex-shrink: inherit;
+}
 
 
 

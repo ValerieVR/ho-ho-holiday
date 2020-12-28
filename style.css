@@ -1,13 +1,11 @@
 * {
-  margin: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-
 }
 
 body {
-     /*background: black;
+    /*background: black;
     size: cover;*/
     font-family: 'Press Start 2P', cursive;
     overflow-y: scroll;
@@ -68,6 +66,7 @@ h1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     opacity: 0;
 }
 
@@ -159,7 +158,6 @@ footer {
 }
 
 canvas {
-
     position: fixed;
     top: 0;
     left: 0;
