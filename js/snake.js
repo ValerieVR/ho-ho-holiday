@@ -135,7 +135,7 @@ document.getElementById("level2").addEventListener("click", function () {
     const canvas = document.getElementById('gameCanvas');
     const ctx = canvas.getContext("2d");
     const box = 20;
-    let score = 0 ;
+
     const eat = new Audio();
     const hitWall = new Audio();
     const hitMe = new Audio();
@@ -211,7 +211,7 @@ document.getElementById("level2").addEventListener("click", function () {
             x:snakeX,
             y:snakeY
         }
-        if (score == 3){
+        if (score == 5){
             document.getElementById('level2').hidden = true;
             clearInterval(game)
             document.getElementById('level3').hidden = false;
@@ -267,7 +267,7 @@ document.getElementById("level3").addEventListener("click", function () {
     const canvas = document.getElementById('gameCanvas');
     const ctx = canvas.getContext("2d");
     const box = 20;
-    let score = 0 ;
+
     const eat = new Audio();
     const hitWall = new Audio();
     const hitMe = new Audio();
@@ -343,7 +343,7 @@ document.getElementById("level3").addEventListener("click", function () {
             x:snakeX,
             y:snakeY
         }
-        if (score == 3){
+        if (score == 100){
             clearInterval(game)
         }
         if( snakeX< 0 || snakeY< 0 || snakeX >canvas.width- box || snakeY>canvas.height - box|| collision(newHead,snake) ) {
