@@ -52,6 +52,8 @@ function play (){
     finish = true ;
     }, 25000);
     timeleft= 25;
+
+    
     
     let downloadTimer = setInterval(function(){
         if(timeleft <= 0){
@@ -89,5 +91,7 @@ rats.forEach( r => {
 
 function replay (){
     document.getElementById('endScreen').style.display='block';
+    boardScore.textContent = "0";
+
 }
 
