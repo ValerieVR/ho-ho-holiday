@@ -58,7 +58,9 @@ body{
 
 }
 
-
+#endScreen a{
+ background-color : black;
+}
 
 h1 {
   margin:40px;
