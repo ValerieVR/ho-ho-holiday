@@ -2,6 +2,7 @@ const cards = document.querySelectorAll(".memory-card");
 
 let audio = document.getElementById("audio");
 let playMuteBTN = document.getElementById("playMuteBTN");
+let playAgain = document.getElementById("play-again");
 let count = 0;
 
 let hasFlippedCard = false;
@@ -74,6 +75,10 @@ playMuteBTN.addEventListener("click", () => {
         audio.pause();
         playMuteBTN.innerHTML = "Play music";
     }
+});
+
+playAgain.addEventListener("click", () => {
+    location.reload();
 });
 
 
