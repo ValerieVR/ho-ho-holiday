@@ -80,14 +80,11 @@ body {
     border-radius: 5px;
     background: #f507c9;
     backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-	/* -webkit-transform-style: preserve-3d;
-	-webkit-transition: all .5s ease-in-out; */
+    
 }
 
 .front-face {
     transform: rotateY(180deg);
-    -webkit-transform: rotateY(0deg);
 }
 
 
