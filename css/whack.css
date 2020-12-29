@@ -1,7 +1,9 @@
 
 body{
   background-image: url(../assets/img/whack/retro.png);
-
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 } 
 
 .navbar {
