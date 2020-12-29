@@ -3,7 +3,9 @@ const rats = document.querySelectorAll('.rat');
 const boardScore = document.querySelector('.score');
 const sounds = document.querySelector('#sounds');
 const soundOne = document.querySelector('#soundOne');
+
 let timeleft = 25;
+
 
 
 let moleBefore;
@@ -41,6 +43,7 @@ function getRats(){
 
 //make the rules of the games
 function play (){
+    document.getElementById("endScreen").style.display='none';
     soundOne.play();
     finish = false;
     score = 0;
@@ -48,18 +51,23 @@ function play (){
     setTimeout(() => {
     finish = true ;
     }, 25000);
-
+    timeleft= 25;
     
     let downloadTimer = setInterval(function(){
         if(timeleft <= 0){
           clearInterval(downloadTimer);
-          document.getElementById("timer").innerHTML = "Finished";
+          document.getElementById("timer").innerHTML ="finished" ;
+           
         } else {
           document.getElementById("timer").innerHTML = timeleft ;
         }
         timeleft -= 1;
       }, 1000);
+      
+      setTimeout(()=> {
+          replay();
 
+      },25000); 
 }
 
 
@@ -79,4 +87,7 @@ rats.forEach( r => {
        
     });
 
+function replay (){
+    document.getElementById('endScreen').style.display='block';
+}
 

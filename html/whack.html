@@ -34,6 +34,12 @@
 </head>
 
 <body>
+    <div id="endScreen">
+        <div id="endScreenContent">
+        <h2 id="textEnd">Ups..Times Out</h2>
+        <button id="btnReplay" onclick="play()">Play Again</button>
+        </div>
+    </div>
     <div class="navbar">
         <a class="active" href="../index.html"><i class="fa fa-fw fa-home"></i></a>
         <a href="#"><i class="fa fa-fw fa-search"></i></a>
@@ -45,7 +51,7 @@
         <h1>Whack An Alien</h1>
         <p id="timer">start</p>
         <img src="../assets/img/whack/alien2.png" alt="" />
-        <button type="button" class="start" onclick="play()"> Play </button>
+        <button id="playbtn" type="button" class="start" onclick="play()"> Play </button>
         <h3>score <br> <br> <span class="score">0 </span> </h3>
 
     </div>

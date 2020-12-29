@@ -21,8 +21,41 @@ body{
   font-size: 17px;
 }
 
+#endScreen{
+  position: absolute;
+  z-index: 101;
+  background-color:rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  display:none;
+ 
 
+}
 
+#endScreen button {
+  color: #189aa2;
+  font-size: 15px;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 2px 2px black, 3px 3px white;
+  box-shadow: 4px 6px 3px #beb4b4;
+}
+
+#endScreenContent {
+  position:absolute;
+  top:50%;
+  margin:0 auto;
+  text-align: center;
+  left:40%;
+
+}
+
+#endScreen h2{
+  color: #91bec0;
+  font-size: 25px;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 2px 2px black, 3px 3px white;
+
+}
 
 
 
@@ -50,7 +83,7 @@ h1 {
   }
 }
 
-button {
+#playbtn {
   position:absolute;
   height:40px;
   width:120px;
@@ -63,7 +96,7 @@ button {
   text-shadow: 2px 2px rgb(122, 117, 117);
   font-family:'Press Start 2P', cursive;
   box-shadow: 4px 6px 3px #beb4b4;
-  margin-left: 590px;
+  margin-left: 550px;
   margin-top:-75px;
 }
 
