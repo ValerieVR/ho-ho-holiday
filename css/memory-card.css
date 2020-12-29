@@ -94,6 +94,16 @@ body {
     background: linear-gradient(to right bottom, #165488, #659FCE);
     border: none;
     padding: 5px;
+    outline: none;
+}
+
+#play-again {
+    margin-top: 10px;
+    font-family: "Press Start 2P";
+    background: linear-gradient(to right bottom, #165488, #659FCE);
+    border: none;
+    padding: 5px;
+    outline: none;
 }
 
 .container {
