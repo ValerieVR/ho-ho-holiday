@@ -65,12 +65,10 @@ body {
 .memory-card:active {
     transform: scale(0.95);
     transition: transform .2s;
-    -webkit-perspective: 900000px;
-    perspective: 900000px;
 }
 
 .memory-card.flip {
-    transform: rotateY(180deg);
+    transform: rotateY(180deg) !important;
 }
 
 .front-face,
@@ -85,7 +83,7 @@ body {
 }
 
 .front-face {
-    transform: rotateY(180deg);
+    transform: rotateY(180deg) !important;
 }
 
 #playMuteBTN {
