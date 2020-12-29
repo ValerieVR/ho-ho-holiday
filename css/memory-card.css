@@ -68,7 +68,7 @@ body {
 }
 
 .memory-card.flip {
-    transform: rotateY(180deg);
+    transform: rotateY(180deg) !important;
 }
 
 .front-face,
@@ -80,11 +80,14 @@ body {
     border-radius: 5px;
     background: #f507c9;
     backface-visibility: hidden;
+    
 }
 
 .front-face {
     transform: rotateY(180deg);
 }
+
+
 
 #playMuteBTN {
     font-family: "Press Start 2P";
@@ -105,5 +108,5 @@ body {
 
 #flex-container {
     display: flex;
-    flex-shrink: initial;
+    flex-grow: inherit;
 }
